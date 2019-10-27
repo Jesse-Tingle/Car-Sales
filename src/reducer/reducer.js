@@ -16,3 +16,16 @@ const initialState = {
       { id: 4, name: 'Rear spoiler', price: 250 }
     ]
 }
+
+export const reducer = (state = initialState, action) => {
+    switch(action.type) {
+        case ADD_FEATURE:
+            return
+
+        case REMOVE_FEATURE:
+            return
+
+        default:
+            return state;
+    }
+}
